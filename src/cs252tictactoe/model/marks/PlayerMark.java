@@ -7,17 +7,14 @@
  *
  * @author Valantis Zervos (vzervos@csd.uoc.gr, csd4878@csd.uoc.gr)
  * Last Edit: 11 Nov 2025
- * @file EmptyMark.java
+ * @file PlayerMark.java
  */
 
 package cs252tictactoe.model.marks;
 
 /**
- * Represents an empty mark (no player has selected it)
+ * All player marks have their corresponding image on the board
  */
-public class EmptyMark extends Mark {
-
-    public EmptyMark(int x, int y) {
-        super(x, y, null);
-    }
+public interface PlayerMark {
+    String getMarkImageSource();
 }

@@ -1,8 +1,13 @@
 /**
- * TicTacToe Example Project
+ * CS252: Object-Oriented Programming
+ * Computer Science Department, University of Crete
+ * <p>
+ * TicTacToe Demo Project
+ * A Demo project for the purposes of the MVC Tutorial in the context of CS252: Object-Oriented Programming.
  *
- * @author Valantis Zervos - csd4878@csd.uoc.gr
- * For CS-252: Object-Oriented Programming course
+ * @author Valantis Zervos (vzervos@csd.uoc.gr, csd4878@csd.uoc.gr)
+ * Last Edit: 11 Nov 2025
+ * @file Mark.java
  */
 
 package cs252tictactoe.model.marks;
@@ -12,6 +17,9 @@ import cs252tictactoe.model.Player;
 import static cs252tictactoe.model.Board.BOARD_HEIGHT;
 import static cs252tictactoe.model.Board.BOARD_WIDTH;
 
+/**
+ * General class of a mark
+ */
 public abstract class Mark {
     private int x;
     private int y;
